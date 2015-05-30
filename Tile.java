@@ -81,6 +81,18 @@ public class Tile {
 
 
     /**
+     *  Returns the 3 weights (vertical,right down, left down)
+     *  concatenated as a string.
+     */
+    public String getWeights() {
+
+	return "" + this.verticalValue + this.rightDownValue +  
+	    this.leftDownValue;
+
+    }
+
+
+    /**
      *  Returns True if this tile is on the board
      */
     public Boolean isAlreadyUsed() {

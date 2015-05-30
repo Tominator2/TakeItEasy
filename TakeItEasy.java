@@ -317,10 +317,7 @@ public class TakeItEasy {
 
 	// Create a string from this board!
 	for (int i = 0; i < hexagons.length; i++) {
-	    thisBoard = thisBoard + 
-		hexagons[i].getVertical() + 
-		hexagons[i].getRightDown() + 
-		hexagons[i].getLeftDown();
+	    thisBoard = thisBoard + hexagons[i].getWeights(); 
 	}
 
 	// compare with existing boards (use a Set?)
