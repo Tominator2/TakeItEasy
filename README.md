@@ -15,7 +15,7 @@ Once the board has been filled then each player calculates their score.  You onl
 
 It turns out [the maximum score is 307 points and there are 16 different boards](https://boardgamegeek.com/thread/399114/high-score-challenge-can-you-get-maximum-307-point).  An example run of the program is contained in the file [solutions.txt](https://github.com/Tominator2/TakeItEasy/blob/master/solutions.txt).
 
-# Code
+## Code
 
 The [Tile class](https://github.com/Tominator2/TakeItEasy/blob/master/Tile.java) represents a single tile and the board is represented by a 2D array that describes which pieces are neighbours on each side of the 19 board tiles in the file [TakeItEasy.java](https://github.com/Tominator2/TakeItEasy/blob/master/TakeItEasy.java).
 
