@@ -11,9 +11,9 @@ Each player has a set of tiles and a hexagonal board  which can hold 19 tiles (s
 
 ![board](https://cloud.githubusercontent.com/assets/4344677/7878677/3781818e-0613-11e5-914b-b9610d447b59.jpg)
 
-Once the board has been filled then each player calculates their score.  You only receive points for coloured lines that make it completely from one side of the board to the other in any of the vertical or diagonal directions (let's call them "down left", and "down right"). 
+Once the board has been filled each player then calculates their score.  You only receive points for coloured lines that make it completely from one side of the board to the other in any of the vertical or diagonal directions (let's call them "down left", and "down right"). 
 
-It turns out [the maximum score is 307 points and there are 16 different boards](https://boardgamegeek.com/thread/399114/high-score-challenge-can-you-get-maximum-307-point).  An example run of the program is contained in the file [solutions.txt](https://github.com/Tominator2/TakeItEasy/blob/master/solutions.txt).
+It turns out [the maximum score is 307 points and there are 16 different boards](https://boardgamegeek.com/thread/399114/high-score-challenge-can-you-get-maximum-307-point).  An example run of the program's output is contained in the file [solutions.txt](https://github.com/Tominator2/TakeItEasy/blob/master/solutions.txt).
 
 ## Code
 
