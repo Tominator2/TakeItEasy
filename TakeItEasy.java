@@ -1,5 +1,5 @@
 /**
- *  This class implements the puzzle game Take It Easy and seacrhes for the
+ *  This class implements the puzzle game Take It Easy and searches for the
  *  16 optimal solutions.
  */
 
@@ -99,10 +99,10 @@ public class TakeItEasy {
 
     int noBoards = 0; // the total no. of boards tried
 
+
     /**
      *  Default constructor - creates an empty Board
      */
-
     public TakeItEasy () {
 
 	hexagons = new Tile[19];
@@ -114,7 +114,6 @@ public class TakeItEasy {
     /**
      *  clear the board
      */
-
     public void initialise () {
 
 	// populate the board with blank tiles
@@ -343,8 +342,10 @@ public class TakeItEasy {
 
     }
 
-    
-    // attempt to populate the board
+
+    /**
+     * Attempt to populate the board
+     */
     public void search() {
 	
 	int total = 0;
@@ -545,7 +546,6 @@ public class TakeItEasy {
 	// testBoard.drawBoard();
 
     }
-
 
 }
 
